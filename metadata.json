@@ -1,0 +1,8 @@
+{
+  "name": "SoundBees Entertainment",
+  "description": "A boutique sound and music production studio operating in Mumbai and Hyderabad, complete with custom cursor, waveform visualizers, and film reel motifs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
