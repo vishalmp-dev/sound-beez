@@ -146,9 +146,19 @@
         .section-title { font-size: 64px; color: var(--charcoal); margin-bottom: 24px; }
         
         /* Hero */
-        .hero { min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; padding-top: 140px; background: var(--bg-warm); border-bottom: 1px solid var(--border); }
+        .hero { min-height: 92vh; display: flex; align-items: center; position: relative; overflow: hidden; padding-top: 140px; background: var(--bg-warm); border-bottom: 1px solid var(--border); }
         .hero-glow { position: absolute; top: -20%; right: -10%; width: 60vw; height: 60vw; max-width: 800px; max-height: 800px; background: radial-gradient(circle, var(--orange-dim) 0%, transparent 60%); border-radius: 50%; pointer-events: none; z-index: 0; }
-        .hero-content { display: flex; align-items: center; justify-content: space-between; width: 100%; position: relative; z-index: 2; }
+      .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+    transform: scale(0.92);
+    transform-origin: center center;
+}
         .hero-left { width: 55%; }
         .hero-h1 { font-size: 80px; margin-bottom: 32px; letter-spacing: -0.03em; line-height: 1.1; }
         .hero-h1 .script-word { font-size: 110px; color: var(--orange); display: inline-block; padding: 0 10px; vertical-align: middle;}
